@@ -1,0 +1,5 @@
+octave-workspace
+*.jpg
+*.jpeg
+*.png
+.vimsession
