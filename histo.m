@@ -10,4 +10,4 @@ for i = 1:m
         h(c+1) = h(c+1)+1
     end
 end
-plot(h)
+plot( h)
