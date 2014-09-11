@@ -5,7 +5,7 @@ im = imread('fight.jpg')
 red = double(im(:,:,1))
 green = double(im(:,:,2))
 blue = double(im(:,:,3))
-grey = 11*red/32 + 16*green/100 + 5*blue/100
+grey = 11*red/32 + 16*green/32 + 5*blue/32
 # convert to unsigned 8-bit integer type
 grey = uint8(round(grey))
 imwrite(grey, 'grey.jpg')
