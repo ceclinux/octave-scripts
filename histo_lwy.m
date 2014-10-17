@@ -7,6 +7,7 @@ h = zeros(256, 1);
 
 img = img(:);
 for i = 1:256
+    % img == i, 即列出图像所有像素与i的相等与否表, 再加起来即可
     h(i) = sum(img == i-1);
 end;
 end;
