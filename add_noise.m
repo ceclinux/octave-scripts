@@ -5,6 +5,7 @@ if length(size(img)) ~= 2
     return;
 end;
 
+% 产生img大小的随机数矩阵, 并乘以100
 noise = rand(size(img)) * 100;
 noise(noise<80) = 0;
 noisyimg = double(img) + noise;
